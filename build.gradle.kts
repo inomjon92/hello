@@ -1,6 +1,6 @@
 plugins {
     kotlin("jvm") version "1.9.22"
-    application // <--- Mana shu qator dasturni to'g'ri yakunlash uchun kerak
+    application
 }
 
 repositories {
@@ -12,5 +12,5 @@ dependencies {
 }
 
 application {
-    mainClass.set("hello.MainKt") // <--- Bizning kodimiz qayerda turganini robotga ko'rsatamiz
+    mainClass.set("MainKt") // <--- Endi robot to'g'ridan-to'g'ri faylni o'zini qidiradi
 }
